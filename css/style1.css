@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  
+} */
+.logo {
+  display: block;
+  margin: auto;
+  color: rgb(0, 79, 248);
+  font-size: 40px;
+  text-align: center;
+}
+.logo i {
+  padding: 10px;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+  background: linear-gradient(to bottom, #ffffff, rgb(0, 79, 248));
+  /* background-color: rgb(0, 79, 248); */
+  height: 60vh;
+  padding: 30px;
+  border-radius: 30px;
+  overflow: auto;
+}
+
+.message {
+  padding: 17px;
+}
+.left {
+  float: left;
+  clear: both;
+  background-color: rgb(74, 82, 82);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 3px;
+}
+.right {
+  float: right;
+  clear: both;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 3px;
+}
+
+#send-container {
+  /* display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 1000px;
+  padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#messageInp {
+  width: 82%;
+  height: 43px;
+  border: 3px solid rgb(0, 79, 248);
+  border-radius: 23px;
+  outline: none;
+  text-align: center;
+  font-size: large;
+}
+.btn {
+  cursor: pointer;
+  height: 43px;
+  border-radius: 10px;
+  width: 100px;
+  border: 3px solid white;
+  font-size: 22px;
+  background-color: rgb(0, 79, 248);
+  color: #ffffff;
+  outline: none;
+}
+.leftChat {
+  display: block;
+  margin: auto;
+  text-align: center;
+  clear: both;
+  background-color: rgb(248, 0, 0);
+  color: #ffffff;
+  font-size: 17px;
+  width: 150px;
+  border-radius: 30px;
+  
+}
